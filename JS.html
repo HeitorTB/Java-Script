@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendendo Java script</title>
+</head>
+<body>
+    <h1 style="text-align: center;"> Java Script </h1>
+    <strong>
+        <p style="text-align: center;">Curso de java script, front end.</p>
+    </strong>
+    <hr>
+
+    <h2>Link</h2>
+    <p>Colocar as tags script dentro do arquivo html e colocar o src criando um js externo</p>
+    <p>Colocar o link script no fim da pag (antes do fechamento do body)</p>
+
+    <h2>Alerta</h2>
+    <p>Escrever: alert("frase")</p>
+    <p>Vai colocar uma notifivaçao de alerta ao abrir o site</p>
+
+    <h2>Saídas ID</h2>
+    <p>Colocar um id="texto"</p>
+    <p>Dentro da página js colocar: document.getElementById("texto").innerHTML="Escrever o texto"</p>
+    
+    <h2>Saídas doc</h2>
+    <p>Também pode usar o <mark>document.write("")</mark> </p>
+    <P>Serve também para fazer calculos</P>
+    <p>Geralmente usado pra testes</p>
+
+    <h2>Saídas console</h2>
+    <p>Serve para colocar uma informação no console do site</p>
+    <p>Não fica visivel na página principal, é necessário dar f12 e ir em console</p>
+    <p>Usar o cod: consol.log("Texto")</p>
+
+    <h2>Sintaxe</h2>
+    <p>Se for um número ou variável colocar sem aspas, caso seja texto colocar as aspas.</p>
+    <p>O js é sensitive, ou seja, diferencia as letras maiusculas das minusculas</p>
+    <p>Se quiser definir uma variável composta colocar o segundo nome com a primeira letra maiúscula, ou seprar com undeline</p>
+    <p><strong>Exemplo: primeiroNome ou primeiro_nome</strong></p>
+    <p><mark>Comentário: //texto</mark></p>
+
+    <h2>Variáveis</h2>
+    <p>Colocar o cod: <strong>var pessoa="Heitor"</strong></p>
+    <br>
+    <code>
+        <pre>
+    var nome, sobrenome, nomeCompleto;
+    nome="Heitor"
+    sobrenome="Brasil"
+    nomeCompleto= nome + " " + sobrenome;
+        </pre>
+    </code>
+    <p><strong>Var:</strong>Permite a redeclaração de uma variável</p>
+    <p><strong>Let:</strong>Não permite a redeclaração de uma variável, apenas num bloco({}) </p>
+    <p><strong>Const: </strong>Nunca pode mudar, nem mesmo dentro de um bloco({})</p>
+
+    <h2>Operadores</h2>
+    <p>Os operadores matemáticos no js são similares ao do python</p>
+    <p>++ e -- aumenta/diminui um número do algarismo</p>
+    <p><strong>Exemplo: ++valor1 (valor1 + 1)</strong></p>
+    <p><code>
+        <pre>
+    var idade,eleitor;
+    idade=18;
+    eleitor = (idade < 18) ? "Não, Eeitor" : "Sim, eleitor"
+<p>(primeiro o true e dps o false)</p></pre></code></p>
+    <p><strong>||</strong> representa ou</p>
+    <p><strong>Exemplo: idade= 18 || idade= 19</strong></p>
+    
+
+
+
+    <script src="index.js"> </script>
+</body>
+</html>
